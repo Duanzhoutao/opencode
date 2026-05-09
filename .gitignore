@@ -1,0 +1,50 @@
+# OpenCode workspace gitignore
+
+# Adaptive intent loop runtime state
+.ai_state/active.json
+.ai_state/registry.json
+.ai_state/projects/*/task_index.md
+.ai_state/projects/*/tasks/*/
+
+# Desktop binaries (local only)
+desktop/
+opencode-desktop-windows-x64.exe
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temp archives
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+
+# Office temp files
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
+# API keys and secrets
+.env
+*.key
+*.pem
